@@ -7,9 +7,9 @@ const presentList = document.getElementById('present-list');
 const absentList = document.getElementById('absent-list');
 const date = document.getElementById('date');
 
-const dash = 'https://extendsclass.com/jsonstorage/7068e562e87a';
+const dash = 'https://extendsclass.com/jsonstorage/';
 const url = 'https://json.extendsclass.com/bin/';
-const key = '4a0afbfff4b5';
+const key = '7068e562e87a';
 
 let cache = null;
 
