@@ -167,7 +167,7 @@ function register(e) {
 	localStorage.setItem('ga-id', this.id.value);
 	
 	const patchOps = [
-		{ op: "replace", path: `/members/${this.id.value}/status`, value: this.status.value.toLowerCase() }
+		{ op: "replace", path: `/members/${this.id.value}/status`, value: this.status.value.trim().toLowerCase() }
 	];
 	
 	updateData(patchOps);
@@ -180,7 +180,6 @@ function isIdNeeded() {
 	const id = localStorage.getItem('ga-id');
 	if (id) {
 		registrationForm.id.value = parseInt(id);
-		registrationForm.id.disabled = true;
 	}
 }
 
