@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Games Repository</title>
+	<!-- Remix Icon -->
+	<link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+	
+	<style>
+		/* Reset */
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		
+		body {
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+			background: #0d1117;
+			color: #c9d1d9;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		}
+		
+		/* Header */
+		.header {
+			background: #161b22;
+			padding: 14px 20px;
+			font-size: 1.1rem;
+			font-weight: bold;
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			border-bottom: 1px solid #30363d;
+		}
+		
+		.header i {
+			color: #58a6ff;
+			font-size: 1.3rem;
+		}
+		
+		/* Explorer full height */
+		.explorer {
+			flex: 1;
+			overflow-y: auto;
+			padding: 20px;
+		}
+		
+		/* Tree View */
+		.tree {
+			list-style: none;
+		}
+		
+		.tree ul {
+			list-style: none;
+			margin-left: 12px;
+			border-left: 1px solid #30363d;
+			padding-left: 8px;
+		}
+		
+		.tree li {
+			margin: 6px 0;
+		}
+		
+		a.dir,
+		a.file {
+			display: flex;
+			align-items: center;
+			gap: 8px;
+			text-decoration: none;
+			color: #c9d1d9;
+			font-size: 0.95rem;
+			padding: 4px 6px;
+			border-radius: 4px;
+			transition: background 0.2s ease;
+		}
+		
+		a.dir:hover,
+		a.file:hover {
+			background: #21262d;
+		}
+		
+		a.dir i {
+			color: #58a6ff;
+		}
+		
+		a.file i {
+			color: #a371f7;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- Header -->
+	<header class="header">
+		<i class="ri-github-fill"></i>
+		<span id="repo-name">Loading...</span>
+	</header>
+	
+	<!-- Full Explorer -->
+	<main class="explorer">
+		<ul id="file-tree" class="tree"></ul>
+	</main>
+	
+	<script>
+		const username = "nikhil-sha"; // 👈 Change this
+		const repo = "Games"; // 👈 Change this
+		const branch = "main"; // or master
+		
+		const treeEl = document.getElementById("file-tree");
+		document.getElementById("repo-name").textContent = repo;
+		
+		// Fetch directory listing from GitHub API
+		async function fetchDirectory(path = "") {
+			const url = `https://api.github.com/repos/${username}/${repo}/contents/${path}?ref=${branch}`;
+			const res = await fetch(url);
+			return res.json();
+		}
+		
+		// Build tree recursively
+		async function buildTree(path = "", parentEl) {
+			const items = await fetchDirectory(path);
+			
+			items.sort((a, b) => a.type.localeCompare(b.type) || a.name.localeCompare(b.name));
+			
+			items.forEach(item => {
+				const li = document.createElement("li");
+				const link = document.createElement("a");
+				link.href = item.type === "file" ? item.html_url : "#";
+				link.className = item.type;
+				link.innerHTML = `<i class="${item.type === "dir" ? "ri-folder-fill" : "ri-file-code-line"}"></i> ${item.name}`;
+				
+				li.appendChild(link);
+				parentEl.appendChild(li);
+				
+				if (item.type === "dir") {
+					const ul = document.createElement("ul");
+					ul.style.display = "none"; // collapsed by default
+					li.appendChild(ul);
+					
+					link.addEventListener("click", async (e) => {
+						e.preventDefault();
+						if (ul.childElementCount === 0) {
+							await buildTree(item.path, ul);
+						}
+						ul.style.display = ul.style.display === "none" ? "block" : "none";
+					});
+				}
+			});
+		}
+		
+		// Init
+		buildTree("", treeEl);
+	</script>
+</body>
+
+</html>

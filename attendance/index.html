@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="font-['Mitr'] font-light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance</title>
+  
+  <script src="https://cdn.tailwindcss.com/" type="text/javascript" charset="utf-8"></script>
+  <meta name="theme-color" content="#F9FAFB">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-gray-100 text-gray-900 p-6">
+  <div class="max-w-lg mx-auto">
+    <h1 class="text-2xl font-medium mb-6 text-center">Group Attendance</h1>
+    
+    <div id="notification-container">
+      <div id="success" class="hidden border border-green-200 rounded-lg p-4 text-green-500 flex items-center space-x-4 bg-green-100 mb-6">
+        <i class="fas fa-circle-check"></i>
+        <p class="text-md leading-tight font-normal">Ajit Kushwaha, Attendance marked as present!</p>
+      </div>
+      
+      <div id="processing" class="hidden border border-blue-200 rounded-lg p-4 text-blue-500 flex items-center space-x-4 bg-blue-100 mb-6">
+        <i class="fas fa-spinner animate-spin"></i>
+        <p class="text-md leading-tight font-normal">Processing request...</p>
+      </div>
+      
+      <div id="error" class="hidden border border-red-200 rounded-lg p-4 text-red-500 flex items-center space-x-4 bg-red-100 mb-6">
+        <i class="fas fa-circle-xmark"></i>
+        <p class="text-md leading-tight font-normal">Something went wrong!</p>
+      </div>
+    </div>
+    
+    <div class="border border-gray-200 rounded-lg p-4 bg-white mb-6">
+      <h2 class="text-lg font-normal mb-4">Register Attendance</h2>
+      <form id="registration-form" class="flex flex-col space-y-4">
+        <div>
+          <label for="id" class="text-sm font-light">User Id</label>
+          <input id="id" name="id" type="number" required placeholder="e.g., 1" class="w-full mt-1 p-2 border border-gray-300 rounded focus:ring-2 focus:ring-green-400 outline-none" />
+        </div>
+        <div>
+          <label for="status" class="text-sm font-light">Status</label>
+          <input id="status" name="status" type="text" required placeholder="e.g., Present" class="w-full mt-1 p-2 border border-gray-300 rounded focus:ring-2 focus:ring-green-400 outline-none" />
+        </div>
+        <button type="submit" class="w-full bg-green-500 text-white py-2 rounded hover:bg-green-600 focus:ring-2 focus:ring-green-400">
+          Submit
+        </button>
+      </form>
+    </div>
+    
+    <div class="border border-gray-200 rounded-lg p-4 bg-white">
+      <h2 class="text-lg font-normal mb-2">Present Today</h2>
+      <ul id="present-list" class="flex flex-col space-y-2 mb-6">
+        <li class="text-sm"><i class="fas fa-circle-check text-green-500 mr-2"></i>Nikhil Sharma</li>
+        <li class="text-sm"><i class="fas fa-circle-check text-green-500 mr-2"></i>Nikhil Sharma</li>
+        <li class="text-sm"><i class="fas fa-circle-check text-green-500 mr-2"></i>Nikhil Sharma</li>
+      </ul>
+      
+      <h2 class="text-lg font-normal mb-2">Absent Today</h2>
+      <ul id="absent-list" class="flex flex-col space-y-2">
+        <li class="text-sm"><i class="fas fa-circle-xmark text-red-500 mr-2"></i>Nikhil Sharma</li>
+        <li class="text-sm"><i class="fas fa-circle-xmark text-red-500 mr-2"></i>Nikhil Sharma</li>
+        <li class="text-sm"><i class="fas fa-circle-xmark text-red-500 mr-2"></i>Nikhil Sharma</li>
+      </ul>
+    </div>
+  </div>
+  
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
