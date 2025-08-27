@@ -5,7 +5,9 @@ const errorNotification = document.getElementById('error');
 const registrationForm = document.getElementById('registration-form');
 const presentList = document.getElementById('present-list');
 const absentList = document.getElementById('absent-list');
+const date = document.getElementById('date');
 
+const dash = 'https://extendsclass.com/jsonstorage/7068e562e87a';
 const url = 'https://json.extendsclass.com/bin/';
 const key = '4a0afbfff4b5';
 
@@ -14,6 +16,13 @@ let cache = null;
 function randomNumber() {
 	const num = Math.floor(Math.random() * 1e5);
 	return num;
+}
+
+function getFormattedDate(date = new Date()) {
+	const options = { day: '2-digit', month: 'long', year: 'numeric', weekday: 'long' };
+	const formatted = date.toLocaleDateString('en-GB', options);
+	
+	return formatted;
 }
 
 const notification = {
@@ -87,7 +96,10 @@ async function getData() {
 		
 		const data = await response.json();
 		cache = data;
-		list.map(data);
+		list.map(data.members);
+		date.textContent = data.date;
+		
+		updateDate();
 		
 		notification.success('Register loaded!');
 	} catch (error) {
@@ -115,13 +127,28 @@ async function updateData(updatedFields) {
 		const data = await response.json();
 		cache = data;
 		
-		list.map(JSON.parse(data.data));
+		list.map(JSON.parse(data.data).members);
+		date.textContent = JSON.parse(data.data).date;
 		
 		notification.success('Attendance registered successfully!');
 	} catch (error) {
 		console.error('Error updating data:', error);
 		notification.error('Attendance registration failed.');
 	}
+}
+
+function updateDate() {
+	const today = getFormattedDate();
+	
+	if (cache.date === today) {
+		return;
+	}
+	
+	const datePatchOps = [{ op: "replace", path: "/date", value: today }];
+	updateData(datePatchOps);
+	
+	const membersPatchOps = cache.members.map((member, i) => ({ op: "replace", path: `/members/${i}/status`, value: "absent" }));
+	updateData(membersPatchOps);
 }
 
 function register(e) {
@@ -140,7 +167,7 @@ function register(e) {
 	localStorage.setItem('ga-id', this.id.value);
 	
 	const patchOps = [
-		{ op: "replace", path: `/${this.id.value}/status`, value: this.status.value.toLowerCase() }
+		{ op: "replace", path: `/members/${this.id.value}/status`, value: this.status.value.toLowerCase() }
 	];
 	
 	updateData(patchOps);
