@@ -57,12 +57,11 @@ function submitAnswer(e) {
 	}
 	
 	if (e.target.answer.value === questionData[currQuestIndex].answer) {
-		console.log('Yay!');
 		score += 4;
 		attempted++;
 		window.prevQuestResEl.className = `size-4 rounded-full bg-green-400`;
 	} else {
-		console.log('Nah!');
+		navigator.vibrate([50, 50, 50]);
 		score--;
 		wrong++;
 		attempted++;
