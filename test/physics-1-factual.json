@@ -1,0 +1,303 @@
+[
+  {
+    "question": "What is the SI unit of electric charge?",
+    "options": [
+      "Coulomb",
+      "Ampere",
+      "Volt",
+      "Farad"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Like charges ________, and unlike charges ________.",
+    "options": [
+      "attract, attract",
+      "repel, repel",
+      "attract, repel",
+      "repel, attract"
+    ],
+    "answer": "3"
+  },
+  {
+    "question": "The law which gives the force between two point charges is called:",
+    "options": [
+      "Gauss's Law",
+      "Ohm's Law",
+      "Coulomb's Law",
+      "Ampere's Law"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "The force between two point charges is inversely proportional to the:",
+    "options": [
+      "Square of the distance between them",
+      "Distance between them",
+      "Cube of the distance between them",
+      "Square root of the distance between them"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "The value of 1/(4πε₀) in SI units is approximately:",
+    "options": [
+      "9 × 10⁹ N m² C⁻²",
+      "9 × 10⁻⁹ N m² C⁻²",
+      "8.85 × 10⁻¹² N m² C⁻²",
+      "1.6 × 10⁻¹⁹ N m² C⁻²"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "What is the property of a body due to which it can exert an electromagnetic force on another body?",
+    "options": [
+      "Electric Field",
+      "Electric Charge",
+      "Electric Flux",
+      "Electric Potential"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "The process of sharing the charges with the earth is called:",
+    "options": [
+      "Induction",
+      "Polarization",
+      "Earthing",
+      "Conduction"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "The space around a charge in which its electrostatic force can be experienced is called its:",
+    "options": [
+      "Electric Flux",
+      "Electric Potential",
+      "Electric Field",
+      "Dipole Moment"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "What is the SI unit of electric field?",
+    "options": [
+      "N/C or V/m",
+      "J/C",
+      "C/N",
+      "V/C"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "The electric field lines for a positive point charge are:",
+    "options": [
+      "Circular and clockwise",
+      "Circular and anticlockwise",
+      "Radially inward",
+      "Radially outward"
+    ],
+    "answer": "3"
+  },
+  {
+    "question": "Two electric field lines:",
+    "options": [
+      "Always intersect each other",
+      "Never intersect each other",
+      "May or may not intersect",
+      "Are always parallel"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "The electric dipole moment is a vector quantity directed from:",
+    "options": [
+      "Positive to negative charge",
+      "Negative to positive charge",
+      "Perpendicular to the line joining the charges",
+      "It is a scalar quantity"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "What is the SI unit of electric dipole moment?",
+    "options": [
+      "Newton (N)",
+      "Coulomb (C)",
+      "Coulomb-metre (C m)",
+      "Newton/Coulomb (N/C)"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "The torque on a dipole in a uniform electric field is maximum when the angle (θ) between p and E is:",
+    "options": [
+      "0°",
+      "45°",
+      "90°",
+      "180°"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "The net force on an electric dipole placed in a uniform electric field is:",
+    "options": [
+      "Always zero",
+      "Never zero",
+      "Zero only at a specific angle",
+      "Depends on the dipole moment"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "The total number of electric field lines passing through a given area is called:",
+    "options": [
+      "Electric Field Intensity",
+      "Electric Potential",
+      "Electric Flux",
+      "Electric Dipole Moment"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "What is the SI unit of electric flux?",
+    "options": [
+      "N m² C⁻¹",
+      "N C⁻¹ m⁻²",
+      "V m",
+      "C m⁻²"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "Gauss's law is particularly useful for calculating the electric field for a charge distribution with:",
+    "options": [
+      "No symmetry",
+      "Cylindrical symmetry",
+      "High complexity",
+      "Arbitrary shape"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "According to Gauss's law, the flux through a closed surface is proportional to the:",
+    "options": [
+      "Total charge enclosed by the surface",
+      "Total charge outside the surface",
+      "Size of the surface",
+      "Electric field outside the surface"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "The electric field inside a uniformly charged spherical shell is:",
+    "options": [
+      "Constant and non-zero",
+      "Zero",
+      "Infinite",
+      "Radially inward"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "The electric field due to an infinite plane sheet of charge is:",
+    "options": [
+      "Dependent on the distance from the sheet",
+      "Zero",
+      "Constant and independent of distance",
+      "Inversely proportional to the distance"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "The direction of the electric field due to an infinite plane positive sheet of charge is:",
+    "options": [
+      "Parallel to the plane",
+      "Zero everywhere",
+      "Away from the plane on both sides",
+      "Towards the plane on both sides"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "A conductor in electrostatic equilibrium has no electric field:",
+    "options": [
+      "On its surface",
+      "Outside it",
+      "Inside it",
+      "Anywhere around it"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "In a conductor, the charge resides:",
+    "options": [
+      "Uniformly throughout its volume",
+      "Only on its outer surface",
+      "Only inside its volume",
+      "On both inner and outer surfaces"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "The dielectric constant of a metal is:",
+    "options": [
+      "Zero",
+      "Infinite",
+      "One",
+      "Negative"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "What is the value of the permittivity of free space (ε₀)?",
+    "options": [
+      "8.85 × 10⁻¹² C² N⁻¹ m⁻²",
+      "9 × 10⁹ N m² C⁻²",
+      "1.6 × 10⁻¹⁹ C",
+      "6.67 × 10⁻¹¹ N m² kg⁻²"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "The charge on a proton is:",
+    "options": [
+      "-1.6 × 10⁻¹⁹ C",
+      "+1.6 × 10⁻¹⁹ C",
+      "0 C",
+      "+9.1 × 10⁻³¹ C"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Quantization of charge implies that charge is an integer multiple of:",
+    "options": [
+      "1 C",
+      "1.6 × 10⁻¹⁹ C",
+      "ε₀",
+      "The charge of an electron"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Which of the following is conserved in all electrostatic processes?",
+    "options": [
+      "Charge",
+      "Number of protons",
+      "Mass",
+      "Energy"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "The process of charging a conductor without any physical contact with another charged body is called:",
+    "options": [
+      "Conduction",
+      "Earthing",
+      "Induction",
+      "Polarization"
+    ],
+    "answer": "2"
+  }
+  
+]
