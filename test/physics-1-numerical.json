@@ -1,303 +1,303 @@
 [
 	{
-		"question": "Two point charges q<sub>A</sub> = 3 μC and q<sub>B</sub> = –3 μC are located 20 cm apart in vacuum. What is the electric field at the midpoint O of the line AB joining the two charges?",
+		"question": "Two point charges of +2 μC and +6 μC repel each other with a force of 12 N. If a charge of -4 μC is given to each of them, what will be the new force?",
 		"options": [
-			"0 N/C",
-			"5.4 × 10<sup>6</sup> N/C along OA",
-			"5.4 × 10<sup>6</sup> N/C along OB",
-			"2.7 × 10<sup>6</sup> N/C along OA"
-		],
-		"answer": "2"
-	},
-	{
-		"question": "A system has two charges q<sub>A</sub> = 2.5 × 10<sup>-7</sup> C and q<sub>B</sub> = –2.5 × 10<sup>-7</sup> C located at points A: (0, 0, –15 cm) and B: (0, 0, +15 cm), respectively. What is the total charge and electric dipole moment of the system?",
-		"options": [
-			"0 C, 7.5 × 10<sup>-8</sup> C m",
-			"0 C, 7.5 × 10<sup>-8</sup> C m along negative z-axis",
-			"0 C, 7.5 × 10<sup>-8</sup> C m along positive z-axis",
-			"5 × 10<sup>-7</sup> C, 0 C m"
+			"4 N (Attractive)",
+			"12 N (Repulsive)",
+			"6 N (Attractive)",
+			"Zero"
 		],
 		"answer": "3"
 	},
 	{
-		"question": "An electric dipole with dipole moment 4 × 10<sup>-9</sup> C m is aligned at 30° with the direction of a uniform electric field of magnitude 5 × 10<sup>4</sup> N/C. Calculate the magnitude of the torque acting on the dipole.",
+		"question": "The ratio of forces between two small spheres at same separation in air to that in a medium of dielectric constant 4 is:",
 		"options": [
-			"1 × 10<sup>-4</sup> N m",
-			"2 × 10<sup>-4</sup> N m",
-			"0.5 × 10<sup>-4</sup> N m",
-			"1.73 × 10<sup>-4</sup> N m"
-		],
-		"answer": "1"
-	},
-	{
-		"question": "A polythene piece rubbed with wool is found to have a negative charge of 3.2 × 10<sup>-7</sup> C. Estimate the number of electrons transferred.",
-		"options": [
-			"2 × 10<sup>12</sup>",
-			"2 × 10<sup>10</sup>",
-			"5 × 10<sup>12</sup>",
-			"1.6 × 10<sup>12</sup>"
-		],
-		"answer": "1"
-	},
-	{
-		"question": "Two insulated charged copper spheres A and B have their centers separated by a distance of 50 cm. The charge on each is 6.5 × 10<sup>-7</sup> C. What is the mutual force of repulsion? (1/4πε₀ = 9 × 10<sup>9</sup> N m² C<sup>-2</sup>)",
-		"options": [
-			"1.52 × 10<sup>-2</sup> N",
-			"1.52 × 10<sup>-3</sup> N",
-			"7.6 × 10<sup>-2</sup> N",
-			"1.52 × 10<sup>-4</sup> N"
-		],
-		"answer": "1"
-	},
-	{
-		"question": "What is the force between two small charged spheres having charges of 2 × 10<sup>-7</sup> C and 3 × 10<sup>-7</sup> C placed 30 cm apart in air?",
-		"options": [
-			"6 × 10<sup>-3</sup> N",
-			"9 × 10<sup>-3</sup> N",
-			"3 × 10<sup>-3</sup> N",
-			"1.8 × 10<sup>-2</sup> N"
-		],
-		"answer": "1"
-	},
-	{
-		"question": "The electrostatic force on a small sphere of charge 0.4 μC due to another small sphere of charge –0.8 μC in air is 0.2 N. What is the distance between the two spheres?",
-		"options": [
-			"12 cm",
-			"10 cm",
-			"15 cm",
-			"8 cm"
-		],
-		"answer": "1"
-	},
-	{
-		"question": "A point charge of 2.0 μC is at the centre of a cubic Gaussian surface 9.0 cm on edge. What is the net electric flux through the surface?",
-		"options": [
-			"1.13 × 10<sup>5</sup> N m² C<sup>-1</sup>",
-			"2.26 × 10<sup>5</sup> N m² C<sup>-1</sup>",
-			"4.52 × 10<sup>5</sup> N m² C<sup>-1</sup>",
-			"0 N m² C<sup>-1</sup>"
-		],
-		"answer": "2"
-	},
-	{
-		"question": "A point charge causes an electric flux of –1.0 × 10<sup>3</sup> N m² C<sup>-1</sup> to pass through a spherical Gaussian surface of 10.0 cm radius centered on the charge. What is the value of the point charge?",
-		"options": [
-			"-8.85 nC",
-			"+8.85 nC",
-			"-4.45 nC",
-			"+4.45 nC"
-		],
-		"answer": "1"
-	},
-	{
-		"question": "A conducting sphere of radius 10 cm has an unknown charge. If the electric field 20 cm from the center of the sphere is 1.5 × 10<sup>3</sup> N/C and points radially inward, what is the net charge on the sphere?",
-		"options": [
-			"-6.67 nC",
-			"+6.67 nC",
-			"-3.33 nC",
-			"+3.33 nC"
-		],
-		"answer": "1"
-	},
-	{
-		"question": "Two large, thin metal plates are parallel and close to each other. On their inner faces, the plates have surface charge densities of opposite signs and of magnitude 17.0 × 10<sup>-22</sup> C/m². What is the electric field intensity E: (a) in the outer region of the first plate?",
-		"options": [
-			"1.92 × 10<sup>-10</sup> N/C",
-			"3.84 × 10<sup>-10</sup> N/C",
-			"0 N/C",
-			"7.68 × 10<sup>-10</sup> N/C"
-		],
-		"answer": "3"
-	},
-	{
-		"question": "An infinite line charge produces a field of 9 × 10<sup>4</sup> N/C at a distance of 2 cm. Calculate the linear charge density.",
-		"options": [
-			"0.1 μC/m",
-			"1 μC/m",
-			"0.2 μC/m",
-			"10 μC/m"
-		],
-		"answer": "1"
-	},
-	{
-		"question": "A spherical conductor of radius 12 cm has a charge of 1.6 × 10<sup>-7</sup> C distributed uniformly on its surface. What is the electric field (a) inside the sphere?",
-		"options": [
-			"1 × 10<sup>5</sup> N/C",
-			"10<sup>4</sup> N/C",
-			"0 N/C",
-			"10<sup>6</sup> N/C"
-		],
-		"answer": "3"
-	},
-	{
-		"question": "A spherical conductor of radius 12 cm has a charge of 1.6 × 10<sup>-7</sup> C distributed uniformly on its surface. What is the electric field (b) just outside the sphere?",
-		"options": [
-			"10<sup>5</sup> N/C",
-			"10<sup>4</sup> N/C",
-			"0 N/C",
-			"10<sup>6</sup> N/C"
-		],
-		"answer": "1"
-	},
-	{
-		"question": "A spherical conductor of radius 12 cm has a charge of 1.6 × 10<sup>-7</sup> C distributed uniformly on its surface. What is the electric field (c) at a point 18 cm from the center of the sphere?",
-		"options": [
-			"4.4 × 10<sup>4</sup> N/C",
-			"8.8 × 10<sup>4</sup> N/C",
-			"2.2 × 10<sup>4</sup> N/C",
-			"0 N/C"
-		],
-		"answer": "1"
-	},
-	{
-		"question": "A uniformly charged conducting sphere of 2.4 m diameter has a surface charge density of 80.0 μC/m². What is the total charge on the sphere?",
-		"options": [
-			"1.45 mC",
-			"1.45 μC",
-			"2.9 mC",
-			"2.9 μC"
-		],
-		"answer": "1"
-	},
-	{
-		"question": "Two point charges 5 μC and -2 μC are placed at points (5 cm, 0, 0) and (23 cm, 0, 0) respectively. What will be the field at (10 cm, 0, 0)?",
-		"options": [
-			"4.0 × 10<sup>6</sup> N/C towards the negative charge",
-			"4.0 × 10<sup>6</sup> N/C towards the positive charge",
-			"2.0 × 10<sup>6</sup> N/C towards the negative charge",
-			"2.0 × 10<sup>6</sup> N/C towards the positive charge"
-		],
-		"answer": "2"
-	},
-	{
-		"question": "A particle of mass 5 × 10<sup>-6</sup> g is kept over a large horizontal sheet of charge of density 4.0 × 10<sup>-6</sup> C/m². What charge should be given to this particle so that if released, it does not fall down? (g = 10 m/s²)",
-		"options": [
-			"1.38 × 10<sup>-9</sup> C",
-			"2.76 × 10<sup>-9</sup> C",
-			"5.52 × 10<sup>-9</sup> C",
-			"8.85 × 10<sup>-9</sup> C"
-		],
-		"answer": "2"
-	},
-	{
-		"question": "An electric dipole of length 2 cm is placed with its axis making an angle of 60° to a uniform electric field of 10<sup>5</sup> N/C. If it experiences a torque of 8√3 N m, what is the magnitude of its dipole moment?",
-		"options": [
-			"8 × 10<sup>-3</sup> C m",
-			"16 × 10<sup>-3</sup> C m",
-			"8 × 10<sup>-4</sup> C m",
-			"16 × 10<sup>-4</sup> C m"
-		],
-		"answer": "2"
-	},
-	{
-		"question": "A hollow cylindrical box of length 1 m and area of cross-section 25 cm² is placed in a three-dimensional coordinate system. If the electric field is given by E = 50x î N/C, what is the net flux through the cylinder?",
-		"options": [
-			"0.125 N m² C<sup>-1</sup>",
-			"0.25 N m² C<sup>-1</sup>",
-			"0.5 N m² C<sup>-1</sup>",
-			"0 N m² C<sup>-1</sup>"
+			"1 : 2",
+			"2 : 1",
+			"1 : 4",
+			"4 : 1"
 		],
 		"answer": "4"
 	},
 	{
-		"question": "A charge Q μC is placed at the centre of a cube. The flux through one of its faces is:",
+		"question": "A point charge +Q is placed at the center of a cube. The electric flux through any one face of the cube is:",
 		"options": [
-			"Q / (6ε₀) × 10<sup>-6</sup>",
-			"Q / ε₀ × 10<sup>-6</sup>",
-			"Q / (12ε₀) × 10<sup>-6</sup>",
-			"Q / (24ε₀) × 10<sup>-6</sup>"
+			"Q/ε₀",
+			"Q/4ε₀",
+			"Q/6ε₀",
+			"Q/8ε₀"
 		],
-		"answer": "1"
+		"answer": "3"
 	},
 	{
-		"question": "A point charge +10 μC is a distance 5 cm directly above the centre of a square of side 10 cm. What is the magnitude of the flux through the square?",
+		"question": "Two identical point charges, Q each, are placed 2m apart. The electrostatic force between them is F. If one charge is doubled and distance is halved, the new force will be:",
 		"options": [
-			"1.88 × 10<sup>5</sup> N m² C<sup>-1</sup>",
-			"1.13 × 10<sup>5</sup> N m² C<sup>-1</sup>",
-			"1.88 × 10<sup>4</sup> N m² C<sup>-1</sup>",
-			"1.13 × 10<sup>4</sup> N m² C<sup>-1</sup>"
+			"F",
+			"2F",
+			"4F",
+			"8F"
 		],
-		"answer": "1"
+		"answer": "4"
 	},
 	{
-		"question": "A point charge of 2.0 μC is kept at the centre of a cubical box of side 9 cm. What is the net flux through the box?",
+		"question": "An electric dipole of moment p is placed in a uniform electric field E. The torque on the dipole is maximum when the angle between p and E is:",
 		"options": [
-			"2.26 × 10<sup>5</sup> N m² C<sup>-1</sup>",
-			"1.13 × 10<sup>5</sup> N m² C<sup>-1</sup>",
-			"4.52 × 10<sup>5</sup> N m² C<sup>-1</sup>",
-			"0 N m² C<sup>-1</sup>"
+			"0°",
+			"90°",
+			"45°",
+			"180°"
 		],
-		"answer": "1"
+		"answer": "2"
 	},
 	{
-		"question": "A uniformly charged straight wire of length 4 m has a linear charge density of 3 × 10<sup>-6</sup> C/m. What is the electric field at a point 3 m from the midpoint of the wire?",
+		"question": "A charge q is placed at the center of a regular tetrahedron. The electric flux through any one of its faces is:",
 		"options": [
-			"1.8 × 10<sup>4</sup> N/C",
-			"3.6 × 10<sup>4</sup> N/C",
-			"7.2 × 10<sup>4</sup> N/C",
-			"1.44 × 10<sup>4</sup> N/C"
+			"q/ε₀",
+			"q/2ε₀",
+			"q/4ε₀",
+			"q/6ε₀"
 		],
-		"answer": "1"
+		"answer": "3"
 	},
 	{
-		"question": "A hollow charged conductor has a tiny hole cut into its surface. The electric field in the hole is:",
+		"question": "A proton and an electron are placed in a uniform electric field. The ratio of the acceleration of the electron to that of the proton is:",
+		"options": [
+			"1 : 1",
+			"Me : Mp",
+			"Mp : Me",
+			"1 : 1836"
+		],
+		"answer": "3"
+	},
+	{
+		"question": "The electric field intensity at a point on the equatorial line of a dipole is E. At a point on the axial line at the same distance, the intensity will be:",
+		"options": [
+			"E/2",
+			"E",
+			"2E",
+			"4E"
+		],
+		"answer": "3"
+	},
+	{
+		"question": "Two point charges A and B, having charges +Q and -Q respectively, are placed a certain distance apart. The force between them is F. If 75% of charge from A is transferred to B, the new force becomes:",
+		"options": [
+			"F/2",
+			"F/4",
+			"F/8",
+			"F/16"
+		],
+		"answer": "3"
+	},
+	{
+		"question": "A Gaussian surface does not enclose any charge. The electric field over this surface must be:",
+		"options": [
+			"Zero everywhere",
+			"Uniform everywhere",
+			"Radially symmetric",
+			"None of the above"
+		],
+		"answer": "4"
+	},
+	{
+		"question": "A point charge q is placed at a distance d from an infinite grounded conducting plane. The force of attraction between the charge and the plane is:",
+		"options": [
+			"q²/(4πε₀d)",
+			"q²/(4πε₀d²)",
+			"q²/(16πε₀d²)",
+			"q²/(8πε₀d²)"
+		],
+		"answer": "3"
+	},
+	{
+		"question": "The work done in rotating an electric dipole in a uniform electric field from the position of stable equilibrium to unstable equilibrium is:",
 		"options": [
 			"Zero",
-			"σ/(2ε₀)",
-			"σ/ε₀",
-			"Depends on the location of the hole"
-		],
-		"answer": "2"
-	},
-	{
-		"question": "A dipole of dipole moment p is placed in a uniform electric field E. The work done in rotating the dipole from a position of alignment with the field to a position where it makes an angle of 180° with the field is:",
-		"options": [
+			"-pE",
 			"pE",
-			"2pE",
-			"-2pE",
-			"Zero"
+			"2pE"
 		],
-		"answer": "2"
+		"answer": "4"
 	},
 	{
-		"question": "The force between two point charges placed in a medium of dielectric constant K is F. If the medium is replaced by another with dielectric constant 2K, the new force becomes:",
+		"question": "A hollow metal sphere of radius R is charged to a potential V. The electric field at a point at a distance R/2 from the center is:",
 		"options": [
-			"2F",
-			"F/2",
-			"4F",
-			"F/4"
+			"Zero",
+			"V/R",
+			"2V/R",
+			"V/2R"
+		],
+		"answer": "1"
+	},
+	{
+		"question": "Two identical charged spheres suspended from a common point by two strings of length l are separated by a distance x. If x << l, the charge on each sphere is proportional to:",
+		"options": [
+			"x",
+			"x²",
+			"x^(3/2)",
+			"x⁻¹"
+		],
+		"answer": "3"
+	},
+	{
+		"question": "An infinite line charge produces a field of 9 × 10⁴ N/C at a distance of 4 cm. The linear charge density is:",
+		"options": [
+			"0.2 μC/m",
+			"2 μC/m",
+			"5 μC/m",
+			"10 μC/m"
 		],
 		"answer": "2"
 	},
 	{
-		"question": "A charge Q is divided into two parts q and (Q - q). The maximum Coulomb repulsion between them when separated by a fixed distance occurs when:",
+		"question": "A charge Q is divided into two parts q and (Q - q). The Coulomb repulsion between them is maximum when:",
 		"options": [
 			"q = Q/4",
 			"q = Q/2",
-			"q = Q/3",
-			"q = 2Q/3"
+			"q = Q",
+			"q = 3Q/4"
 		],
 		"answer": "2"
 	},
 	{
-		"question": "A proton and an electron are placed in a uniform electric field. The ratio of the acceleration of the electron to that of the proton is: (m<sub>e</sub> and m<sub>p</sub> are their respective masses)",
+		"question": "The electric field due to a uniformly charged non-conducting infinite plane sheet is E. If the sheet is now replaced by a conducting sheet of the same dimensions and same surface charge density, the new electric field at a point near it will be:",
 		"options": [
-			"1",
-			"m<sub>p</sub>/m<sub>e</sub>",
-			"m<sub>e</sub>/m<sub>p</sub>",
-			"-m<sub>p</sub>/m<sub>e</sub>"
+			"E",
+			"E/2",
+			"2E",
+			"4E"
+		],
+		"answer": "1"
+	},
+	{
+		"question": "A dipole is placed parallel to a uniform electric field. The work done in rotating it by 180° is:",
+		"options": [
+			"Zero",
+			"pE",
+			"2pE",
+			"-2pE"
+		],
+		"answer": "1"
+	},
+	{
+		"question": "A point charge q is placed at the corner of a cube. The electric flux through the cube is:",
+		"options": [
+			"q/ε₀",
+			"q/2ε₀",
+			"q/4ε₀",
+			"q/8ε₀"
 		],
 		"answer": "4"
 	},
 	{
-		"question": "A Gaussian surface is drawn enclosing an electric dipole. The net electric flux through this surface is:",
+		"question": "The electric field in a region is given by E = (5i + 2j) N/C. The flux through a surface of area 2 m² parallel to the Y-Z plane is:",
 		"options": [
-			"Zero",
-			"q/ε₀",
-			"2q/ε₀",
-			"q/(2ε₀)"
+			"10 Nm²/C",
+			"20 Nm²/C",
+			"4 Nm²/C",
+			"Zero"
 		],
 		"answer": "1"
+	},
+	{
+		"question": "Two large, identical metal plates have surface charge densities +σ and -σ. The electric field between them is E₁. If they are moved apart to double the separation, the new field E₂ is:",
+		"options": [
+			"E₂ = E₁",
+			"E₂ = E₁/2",
+			"E₂ = 2E₁",
+			"E₂ = 4E₁"
+		],
+		"answer": "1"
+	},
+	{
+		"question": "A charged particle of mass m and charge q is released from rest in a uniform electric field E. Its kinetic energy after time t is:",
+		"options": [
+			"(Eq²t²)/2m",
+			"(E²q²t²)/2m",
+			"(E²q²t²)/m",
+			"(Eqt)/m"
+		],
+		"answer": "2"
+	},
+	{
+		"question": "A spherical Gaussian surface encloses a net charge. The electric flux through the surface is φ. If the Gaussian surface is replaced by a cube of half the radius, enclosing the same charge, the flux will become:",
+		"options": [
+			"φ/2",
+			"φ",
+			"2φ",
+			"8φ"
+		],
+		"answer": "2"
+	},
+	{
+		"question": "The electric potential V at a point on the axis of a short dipole is related to the electric field E at that point as:",
+		"options": [
+			"V ∝ E",
+			"V ∝ E²",
+			"V ∝ 1/E",
+			"No simple relation exists"
+		],
+		"answer": "4"
+	},
+	{
+		"question": "A charge Q is placed at the center of a circle of radius R. The electric flux through the circle is φ. If the radius of the circle is doubled, the flux becomes:",
+		"options": [
+			"φ",
+			"2φ",
+			"φ/2",
+			"φ/4"
+		],
+		"answer": "3"
+	},
+	{
+		"question": "A point charge causes an electric flux of -2 × 10³ Nm²/C to pass through a spherical Gaussian surface. The charge enclosed is:",
+		"options": [
+			"+17.7 nC",
+			"-17.7 nC",
+			"+35.4 nC",
+			"-35.4 nC"
+		],
+		"answer": "2"
+	},
+	{
+		"question": "An electron and a proton are in a uniform electric field. The ratio of their accelerations (a_e : a_p) is:",
+		"options": [
+			"1 : 1 (magnitude and direction)",
+			"1 : 1836 (magnitude, opposite direction)",
+			"1836 : 1 (magnitude, opposite direction)",
+			"1 : 1836 (magnitude and direction)"
+		],
+		"answer": "3"
+	},
+	{
+		"question": "If F is the force between two point charges in air, then on immersing them in a liquid of dielectric constant 9, the new force becomes:",
+		"options": [
+			"F/3",
+			"F/9",
+			"F/81",
+			"9F"
+		],
+		"answer": "2"
+	},
+	{
+		"question": "A dipole is placed in a non-uniform electric field. It will experience:",
+		"options": [
+			"Only a torque",
+			"Only a net force",
+			"Both a torque and a net force",
+			"Neither a torque nor a net force"
+		],
+		"answer": "3"
+	},
+	{
+		"question": "A long string with a charge of λ per unit length passes through an imaginary cube of edge a. The maximum possible flux through the cube is:",
+		"options": [
+			"λa/ε₀",
+			"√2λa/ε₀",
+			"√3λa/ε₀",
+			"(3λa²)/ε₀"
+		],
+		"answer": "3"
 	}
 	
 ]
